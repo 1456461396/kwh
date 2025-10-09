@@ -12,7 +12,8 @@
     "preview": "vite preview",
     "lint": "eslint . --fix",
     "format": "prettier --write src/",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "lint-staged": "lint-staged"
   },
   "dependencies": {
     "pinia": "^3.0.3",
@@ -28,8 +29,14 @@
     "eslint-plugin-vue": "~10.4.0",
     "globals": "^16.3.0",
     "husky": "^8.0.0",
+    "lint-staged": "^16.2.3",
     "prettier": "3.6.2",
     "vite": "^7.1.7",
     "vite-plugin-vue-devtools": "^8.0.2"
+  },
+  "lint-staged": {
+    "*.{js,ts,vue}": [
+      "eslint --fix"
+    ]
   }
 }
