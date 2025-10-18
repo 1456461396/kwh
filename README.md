@@ -1,44 +1,11 @@
-# code
+基于 Vue3 + Pinia + Element Plus 开发的博客学习项目
+集成博客发布、修改、分类以及个人中心等功能，对接后端API实现完整的博客平台交互流程。
 
-This template should help get you started developing with Vue 3 in Vite.
+### 技术栈
 
-## Recommended IDE Setup
-
-[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
-
-## Recommended Browser Setup
-
-- Chromium-based browsers (Chrome, Edge, Brave, etc.):
-  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd) 
-  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
-- Firefox:
-  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
-  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vite.dev/config/).
-
-## Project Setup
-
-```sh
-pnpm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-pnpm dev
-```
-
-### Compile and Minify for Production
-
-```sh
-pnpm build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-pnpm lint
-```
+- **前端框架**：Vue 3 -Composition API
+- **状态管理**：Pinia
+- **UI 组件库**：Element Plus
+- **HTTP 工具**：Axios
+- **路由管理**：Vue Router
+- **后端 API**：基于 `https://big-event-vue-api-t.itheima.net` 接口服务

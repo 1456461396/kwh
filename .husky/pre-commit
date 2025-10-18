@@ -2,6 +2,6 @@
 . "$(dirname -- "$0")/_/husky.sh"
 
 # npm test 改
-# pnpm lint 改 
+# pnpm lint  全量检查、耗时问题、历史问题， 改： 
 pnpm lint-staged
 
